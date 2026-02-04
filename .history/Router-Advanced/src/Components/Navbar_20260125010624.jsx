@@ -1,0 +1,28 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Navbar = () => {
+    return (
+        <div>
+            <nav className="bg-gray-800 text-white flex">
+                <div className="max-w-7xl mx-auto px-4 py-8 flex items-center justify-between">
+                    <div className="flex items-center space-x-4">
+                        <span className="font-bold text-lg absolute pl-10 left-0">MyApp</span>
+                        <div className="hidden md:flex absolute right-0 pr-10 space-x-2">
+                            <Link className="px-3 py-2 rounded hover:bg-gray-700" to="/">Home</Link>
+                            <Link className="px-3 py-2 rounded hover:bg-gray-700" to="/about">About</Link>
+                            <Link className="px-3 py-2 rounded hover:bg-gray-700" to="/product">Products</Link>
+                            <Link className="px-3 py-2 rounded hover:bg-gray-700" to="/contacts">Contacts</Link>
+                        </div>
+                    </div>
+                    <div>
+                        <button className="md:hidden px-3 py-2 rounded bg-gray-700">Menu</button>
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+    )
+}
+
+export default Navbar
