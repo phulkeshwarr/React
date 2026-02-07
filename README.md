@@ -91,10 +91,6 @@ Each project is self-contained and can be run independently. To run a specific p
 
 Feel free to fork this repository and contribute by adding new projects or improving existing ones. Pull requests are welcome!
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 Happy coding! 🚀
